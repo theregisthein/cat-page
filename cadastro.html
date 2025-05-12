@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,7 @@
         </div>
 
         <div class="image">
-          <img src="Images/gato-preto_3522-27.png" alt="">
+          <img src="Images/gatoCadastro.jpg" alt="">
         </div>
       </div>
 
@@ -27,51 +27,50 @@
 
 
       <div class="right">
-        <div class="login">
+        <div class="cadastro">
 
-          
-          
+
+
             <h2 style="color: #fdf9f4;">Cadastro</h2>
             
             <div class="textBox">
-              <label class="nomeSenha" for="">Nome</label>
-              <input class="input" type="text" placeholder="" id="cInputNome">
-            </div>
-
-    
-            <div class="textBox">
-              <label class="nomeSenha" for="">Sobrenome</label>
-              <input class="input" type="text" placeholder="" id="cInputSobrenome">
+              <label class="nomeSenha" for="cInputNome">Nome</label>
+              <input class="input" type="text" placeholder="Qual o seu nome?" id="cInputNome">
             </div>
 
             <div class="textBox">
-              <label class="nomeSenha" for="">E-mail</label>
-              <input class="input" type="email" placeholder="" id="cInputEmail">
+              <label class="nomeSenha" for="cInputSobrenome">Sobrenome</label>
+              <input class="input" type="text" placeholder="Qual o seu sobrenome?" id="cInputSobrenome">
             </div>
 
             <div class="textBox">
-              <label class="nomeSenha" for="">Senha</label>
-              <input class="input" type="password" placeholder="" id="cInputSenha">
+              <label class="nomeSenha" for="cInputEmail">E-mail</label>
+              <input class="input" type="email" placeholder="O e-mail será usado para efetuar o Login" id="cInputEmail">
             </div>
 
             <div class="textBox">
-              <label class="nomeSenha" for="">Confirme sua senha</label>
-              <input class="input" type="password" placeholder="" id="cConfirmaSenha">
+              <label class="nomeSenha" for="cInputSenha">Senha</label>
+              <input class="input" type="password" placeholder="Sua senha" id="cInputSenha">
             </div>
 
             <div class="textBox">
-              <label class="nomeSenha" for="">Quantos gatos eu possuo?</label>
+              <label class="nomeSenha" for="cConfirmaSenha">Confirme sua senha</label>
+              <input class="input" type="password" placeholder="Confirme sua senha" id="cConfirmaSenha">
+            </div>
+
+            <div class="textBox">
+              <label class="nomeSenha" for="cQtdeGatos">Quantos gatos eu possuo?</label>
               <select class="input" name="" id="cQtdeGatos">
-                <option value="">Nenhum ainda</option>
-                <option value="">Um</option>
-                <option value="">Dois</option>
-                <option value="">Três ou mais</option>
+                <option value="0">Nenhum ainda</option>
+                <option value="1">Um</option>
+                <option value="2">Dois</option>
+                <option value="3+">Três ou mais</option>
               </select>
             </div>
 
             
             <button class="loginButton" id="cadastroBut">Cadastrar</button>
-            
+            <button class="loginButton" id="voltarLogin" style="margin-top: 5px; background-color: #fde7cb;">Voltar à página de login</button>
 
         </div>
       </div>
